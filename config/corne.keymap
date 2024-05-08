@@ -39,19 +39,19 @@
 
         symbols {
             bindings = <
-&kp RA(P)  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL
-&kp RA(Q)  &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE        &trans  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
-&kp RA(Y)  &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-                                         &trans                &trans                 &trans           &trans  &trans        &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL     &kp RA(P)
+&trans  &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE        &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp RA(Q)
+&trans  &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp RA(Y)
+                                      &trans                &trans                 &trans           &trans        &trans        &trans
             >;
         };
 
         window_manager {
             bindings = <
-&trans  &kp LS(LG(Q))  &trans  &trans  &trans  &trans    &kp LG(NUMBER_1)    &kp LG(NUMBER_2)    &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &trans
-&trans  &trans         &trans  &trans  &trans  &trans    &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT)     &trans            &trans
-&trans  &trans         &trans  &trans  &trans  &trans    &trans              &trans              &trans            &kp LG(LGUI)      &trans            &trans
-                               &trans  &trans  &trans    &trans              &trans              &trans
+&trans  &kp LS(LG(Q))  &trans     &trans  &trans  &trans         &kp LG(NUMBER_1)    &kp LG(NUMBER_2)    &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &trans
+&trans  &trans         &trans     &trans  &trans  &trans         &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT)     &trans            &trans
+&trans  &trans         &kp LG(C)  &trans  &trans  &trans         &trans              &trans              &trans            &kp LG(LGUI)      &trans            &trans
+                                  &trans  &trans  &kp LG(TAB)    &kp LG(ENTER)       &trans              &trans
             >;
         };
 
