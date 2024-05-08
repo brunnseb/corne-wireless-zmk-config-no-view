@@ -71,7 +71,7 @@ ZMK_BEHAVIOR(hmr, hold_tap,  // right-hand HRMs
             bindings = <
 &trans  &kp LS(LG(Q))  &trans     &trans  &trans  &trans         &kp LG(NUMBER_1)    &kp LG(NUMBER_2)    &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &trans
 &trans  &trans         &trans     &trans  &trans  &trans         &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT)     &trans            &trans
-&trans  &trans         &kp LG(C)  &trans  &trans  &trans         &trans              &trans              &trans            &kp LG(LGUI)      &trans            &trans
+&trans  &trans         &kp LG(C)  &trans  &trans  &trans         &trans              &trans              &trans            &kp LG(LGUI)      &trans            &bt BT_CLR_ALL
                                   &trans  &trans  &kp LG(TAB)    &kp LG(ENTER)       &trans              &trans
             >;
         };
