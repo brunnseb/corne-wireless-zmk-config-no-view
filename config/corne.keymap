@@ -60,9 +60,9 @@ ZMK_BEHAVIOR(hmr, hold_tap,  // right-hand HRMs
 
         symbols {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL     &kp RA(P)
-&trans  &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE        &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp RA(Q)
-&trans  &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp RA(Y)
+&kp TILDE       &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL     &kp RA(P)
+&kp DELETE      &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE        &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp RA(Q)
+&kp CAPSLOCK   &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS      &kp RA(Y)
                                       &trans                &trans                 &trans           &trans        &trans        &trans
             >;
         };
